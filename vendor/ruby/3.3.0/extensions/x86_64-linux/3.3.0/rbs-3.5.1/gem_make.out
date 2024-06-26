@@ -1,0 +1,27 @@
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/rbs-3.5.1/ext/rbs_extension
+/home/odinstudent/.rbenv/versions/3.3.1/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/rbs-3.5.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240626-7834-q63axf sitelibdir\=./.gem.20240626-7834-q63axf clean
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/rbs-3.5.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240626-7834-q63axf sitelibdir\=./.gem.20240626-7834-q63axf
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/rbs-3.5.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240626-7834-q63axf sitelibdir\=./.gem.20240626-7834-q63axf install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20240626-7834-q63axf
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/rbs-3.5.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240626-7834-q63axf sitelibdir\=./.gem.20240626-7834-q63axf clean
