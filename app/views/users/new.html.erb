@@ -1,5 +1,16 @@
 <h1> Create a new User </h1>
 
+<% if @user.errors.any? %>
+  <div id="error explanation">
+  <h4><%= pluralize(@user.errors.count, "error") %> prohibited this user from being created</h4>
+  <ul>
+    <% @user.errors.each do |error| %>
+      <li><%=error.full_message %></li>
+    <% end %>
+  </ul>
+  </div>
+<% end %> 
+
 <%= form_with model: @user do |form| %>
   <%= form.label :username, "Username:"%>
   <%= form.text_field :username, value: "Your username goes here" %>
