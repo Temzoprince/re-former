@@ -1,17 +1,14 @@
 <h1> Create a new User </h1>
 
-<%= form_tag("/users") do %>
-  <%=label_tag(:username, "Username:") %>
-  <%=text_field_tag(:username) %>
+<%= form_with model: @user do |form| %>
+  <%= form.label :username, "Username:"%>
+  <%= form.text_field :username, value: "Your username goes here" %>
   <br><br>
-
-  <%=label_tag(:email, "Email:") %>
-  <%=email_field_tag(:email) %>
+  <%= form.label :email, "Email:" %>
+  <%= form.email_field :email, placeholder: "example@example.com" %>
   <br><br>
-
-  <%=label_tag(:password, "Password:") %>
-  <%=password_field_tag(:password) %>
+  <%= form.label :password, "Password:" %>
+  <%= form.password_field :password%>
   <br><br>
-
-  <%= submit_tag("Submit") %>
+  <%= form.submit "Create" %>
 <% end %>
