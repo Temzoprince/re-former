@@ -1,0 +1,18 @@
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/odinstudent/.rbenv/versions/3.3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-uijwpi sitelibdir\=./.gem.20240626-5501-uijwpi clean
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-uijwpi sitelibdir\=./.gem.20240626-5501-uijwpi
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-uijwpi sitelibdir\=./.gem.20240626-5501-uijwpi install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240626-5501-uijwpi/skiptrace/internal
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-uijwpi sitelibdir\=./.gem.20240626-5501-uijwpi clean

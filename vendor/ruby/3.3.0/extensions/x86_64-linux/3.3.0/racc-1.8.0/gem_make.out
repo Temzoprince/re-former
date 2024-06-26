@@ -1,0 +1,18 @@
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+/home/odinstudent/.rbenv/versions/3.3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-oawk3h sitelibdir\=./.gem.20240626-5501-oawk3h clean
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-oawk3h sitelibdir\=./.gem.20240626-5501-oawk3h
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-oawk3h sitelibdir\=./.gem.20240626-5501-oawk3h install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240626-5501-oawk3h/racc
+
+current directory: /home/odinstudent/repos/re-former/vendor/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240626-5501-oawk3h sitelibdir\=./.gem.20240626-5501-oawk3h clean
